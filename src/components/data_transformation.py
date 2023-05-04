@@ -97,9 +97,12 @@ class DataTransformation:
             target_feature_test_df=test_df['math_score']
             
             logging.info("seperated the dependent and independent features")
+            logging.info(f"input features : {input_feature_train_df.columns}")
+            logging.info(f"output features : {target_feature_train_df.shape} ")
             
             preprocessing_obj_tarin_df=preprocessing_obj.fit_transform(input_feature_train_df)
             preprocessing_obj_test_df=preprocessing_obj.transform(input_feature_test_df)
+            
             
             logging.info("preprocessing the inputs are done")
             
