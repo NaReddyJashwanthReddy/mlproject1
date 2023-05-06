@@ -22,4 +22,4 @@ writing score:marks scored in writing
 
 to predict marks scored by a student when revelent information is provided
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fb953dfa-0868-4723-8c26-5a34e0f04856/deploy-status)](https://app.netlify.com/sites/effulgent-dango-cc825a/deploys)
+# prediction(https://api.netlify.com/api/v1/badges/fb953dfa-0868-4723-8c26-5a34e0f04856/deploy-status)](https://app.netlify.com/sites/effulgent-dango-cc825a/deploys)
