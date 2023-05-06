@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd 
 from src.pipeline.predict_pipeline import CustomData
 from src.pipeline.predict_pipeline import PredictPipeline
+from src.logger import logging
 
 from sklearn.preprocessing import StandardScaler  
 from flask import Flask,request,render_template
@@ -34,7 +35,7 @@ def predict_datapoint():
         
         predict_pipeline=PredictPipeline()
         prediction=predict_pipeline.Predict_score(pred_df)
-        
+        logging.info(f"predicted the math score{prediction}")
         return render_template('home.html',results=int(prediction[0]))
         
         

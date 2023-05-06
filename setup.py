@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup    # find all the packages avaliable in the in the directory we have created or application
 
 HYPEN_E_DOT='-e .'
-def get_requirements(file_path:str)->list[str]:
+def get_requirements(file_path:str):
     '''
     this function will return the list of requirements
     '''
